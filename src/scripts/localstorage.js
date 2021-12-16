@@ -1,7 +1,7 @@
 class LocalStorage {
     // method to initialize blacklisted websites
     initBlacklistWebsites() {
-        var websites = ["youtube.com", "facebook.com", "instagram.com"];
+        var websites = ["instagram.com"];
         chrome.storage.local.set({
             blacklistWebsites: websites
         })
